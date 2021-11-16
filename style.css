@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Quicksand&family=Roboto:ital,wght@1,100&display=swap');
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.image{
+    position: relative;
+}
+
+.head1{
+    position: absolute;
+    left: 16px;
+    top: 6px;
+    font-family: 'Caesar Dressing', cursive;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.head2{
+    position: absolute;
+    left: 40%;
+    top: 10px;
+    font-size: 15px;
+    
+}
+
+.head2 ul{
+    display: flex;
+    gap: 2em;
+    justify-content: center;  
+}
+
+.head2 li{
+    list-style: none;
+}
+
+.head3{
+    position: absolute;
+    top: 10px;
+    right: 16px;
+    gap: 5px;
+}
+
+.btn1{
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+    border: none;
+    background-color:rgb(44, 180, 230);
+    width: 100px;
+    font-size: 15px;
+   
+    border-radius: 5px;
+}
+
+.btn2{
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+    border: none;
+    background-color: rgb(44, 247, 44);
+    width: 100px ;
+    font-size: 15px;
+    
+   border-radius: 5px;
+}
+
+.two{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%,-50%);
+    font-size: 25px;
+    color: white;
+    text-shadow: 2px 2px black;
+    font-family: 'Bangers', cursive;
+    font-weight: 600px;
+    letter-spacing: 5px;
+    
+}
+
+.three{
+    position: absolute;
+    left: 50%;
+    top: 32%;
+    transform: translate(-50%,-50%);
+    color: crimson;
+    font-style: italic;
+    font-size: 70px;
+    font-family: 'Barrio', cursive;
+    text-align: center;
+}
+
+.four button{
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+    border-radius: 50px;
+    border: none;
+    background-image: linear-gradient(to right bottom, #9d9ea0, #a6a9ac, #afb4b8, #b7c0c3, #c0ccce, #c0d1d0, #c3d6d0, #c8dace, #cdd7c1, #d8d2b5, #e6cab0, #f3c2b3);
+    width: auto;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    font-family: 'Pompiere', cursive;
+
+
+
+}
+.five p{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 15px;
+    font-family: 'Pompiere', cursive;
+}
+
+.six p{
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 15px;
+    font-family: 'Pompiere', cursive;
+}
